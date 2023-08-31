@@ -82,7 +82,7 @@ exit 0
 
 %changelog
 * Thu Aug 31 2023 Mustafa Gezen <mustafa@openela.org> - 2.9.8
-- Test patch
+- Test patch2
 
 * Mon Jun 04 2018 Kamil Dudka <kdudka@redhat.com> - 2.9.8-1
 - new upstream release
