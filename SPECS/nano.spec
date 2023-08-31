@@ -1,21 +1,22 @@
-Summary:         A small text editor
-Name:            nano
-Version:         2.9.8
-Release:         1%{?dist}
-License:         GPLv3+
-URL:             https://www.nano-editor.org
-Source:          https://www.nano-editor.org/dist/v2.9/%{name}-%{version}.tar.gz
-Source2:         nanorc
+Summary:              A small text editor
+Name:                 nano
+Version:              2.9.8
+Release:              1%{?dist}
+License:              GPLv3+
+URL:                  https://www.nano-editor.org
+Source:               https://www.nano-editor.org/dist/v2.9/%{name}-%{version}.tar.gz
+Source2:              nanorc
 
-BuildRequires:   file-devel
-BuildRequires:   gettext-devel
-BuildRequires:   gcc
-BuildRequires:   git
-BuildRequires:   groff
-BuildRequires:   ncurses-devel
-BuildRequires:   sed
-BuildRequires:   texinfo
-Conflicts:       filesystem < 3
+
+BuildRequires:        file-devel
+BuildRequires:        gettext-devel
+BuildRequires:        gcc
+BuildRequires:        git
+BuildRequires:        groff
+BuildRequires:        ncurses-devel
+BuildRequires:        sed
+BuildRequires:        texinfo
+Conflicts:            filesystem < 3
 Requires(post):  /sbin/install-info
 Requires(preun): /sbin/install-info
 
@@ -80,6 +81,9 @@ exit 0
 %{_datadir}/nano
 
 %changelog
+* Thu Aug 31 2023 Mustafa Gezen <mustafa@openela.org> - 2.9.8
+- Test patch
+
 * Mon Jun 04 2018 Kamil Dudka <kdudka@redhat.com> - 2.9.8-1
 - new upstream release
 
