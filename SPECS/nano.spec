@@ -81,7 +81,7 @@ exit 0
 %{_datadir}/nano
 
 %changelog
-* Thu Aug 31 2023 Mustafa Gezen <mustafa@openela.org> - 2.9.8
+* Fri Sep 01 2023 Mustafa Gezen <mustafa@openela.org> - 2.9.8
 - Test patch4
 
 * Mon Jun 04 2018 Kamil Dudka <kdudka@redhat.com> - 2.9.8-1
